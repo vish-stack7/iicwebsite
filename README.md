@@ -1,2 +1,1 @@
-# iicwebsite
-iicwebsite
+# index.php
