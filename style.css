@@ -1,0 +1,146 @@
+.myblock {
+	width: 32%;
+	height: 100px;
+	float: left;
+	margin-left: 3%;
+	margin-top: 60px;
+}
+
+.myblock1 {
+	width: 24%;
+	height: 300px;
+	float: right;
+	margin-right: 3%;
+	margin-top: 60px;
+}
+
+.myblock2 {
+	width: 32%;
+	height: 100px;
+	float: left;
+	margin-left: 3%;
+	margin-top: 320px;
+}
+
+.myblock3 {
+	width: 24%;
+	height: 300px;
+	float: right;
+	margin-right: 3%;
+	margin-top: 120px;
+}
+
+.dropdown-menu a:hover {
+	background-color: #ddd;
+	justify-content: flex-start;
+	display: inline;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	justify-content: flex-start;
+	display: inline;
+}
+
+#navbarDropdownMenuLink:hover {
+	background-color: #ddd;
+	justify-content: flex-end;
+	display: inline;
+}
+.placementblock {
+	width: 94%;
+	height: 240px;
+	float: left;
+	margin-left: 3%;
+	margin-top: 120px;
+}
+.footer {
+	width: 94%;
+	height: 500px;
+	float: left;
+	margin-left: 3%;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.footb1 {
+	width: 15%;
+	height: 60%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+.followus {
+	width: 51%;
+	height: 25%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+
+
+.buttononimg {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+
+.buttononimg .btn {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white;
+	font-size: 16px;
+	padding: 12px 12px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.buttononimg .btn:hover {
+	background-color: black;
+}
+
+.mapouter {
+	position: relative;
+	height: 500px;
+	width: 600px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none!important;
+	height: 500px;
+	width: 600px;
+}
+@media only screen and(max-width: 800px) {
+	/*for tablets*/
+	.myblock {
+		width: 80%;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	/*for mobilem phone*/
+	.myblock {
+		width: 100%;
+	}
+}
+
+@media only screen and(max-width: 500px) {
+	.myblock {
+		width: 60%;
+		padding: 10;
+	}
+}
+
